@@ -1,6 +1,5 @@
 require("dotenv").config()
 require("@nomiclabs/hardhat-ethers")
-require("@openzeppelin/hardhat-upgrades")
 const { API_URL, PRIVATE_KEY, PUBLIC_KEY } = process.env
 module.exports = {
   solidity: {
